@@ -18,19 +18,30 @@ CACHE_FILE = "data/mapping_cache.json"
 
 # Жесткое определение кэша (Чтение из файла временно отключено)
 CACHE_DB = {
+    # 1. Logitech G Pro X Superlight 2 DEX
+    "Logitech GPW4 Generation Hawkeye Wireless Game Mouse Upgraded Edition Bullshit King 4 Generation Ergonomic Lightweight": "Logitech G Pro X Superlight 2 DEX",
+    "罗技 GPW4 鹰眼GPROX SUPERLIGHT2 DEX 无线游戏鼠标网吧网咖": "Logitech G Pro X Superlight 2 DEX",
+    
+    # 2. Logitech G Pro X Superstrike (GPW5)
+    "Logitech Gpw5 Snow Leopard Wireless Mouse Electromagnetic Micro-Motion Gaming Mouse Gpw5": "Logitech G Pro X Superstrike",
+    "适用罗技无线鼠标gpw5狗屁王五代雪豹": "Logitech G Pro X Superstrike",
+    "适用罗技GPW5雪豹无线鼠标 狗屁王五代8K电磁微动电竞游戏双模": "Logitech G Pro X Superstrike",
+    "Suitable for Logitech Gpw5 Snow Leopard Wireless Mouse, Electromagnetic Micro-Movement 8K E-Sports Gaming Mouse, Gpw5": "Logitech G Pro X Superstrike",
+    "Logitech Gpro X Superstrike 5Th Generation Snow Leopard Wireless Gaming Mouse Is Suitable for Use": "Logitech G Pro X Superstrike",
+    "罗技GPW5雪豹无线鼠标 狗屁王五代8K电磁微动电竞游戏双模轻量化": "Logitech G Pro X Superstrike",
+    
+    # 3. Logitech G Pro X Superlight 2 (GPW4 / GPW3)
     "Suitable for Logitech Gprox Superlight 2 Dogpiwang Third-Generation Wireless Gaming Mouse": "Logitech G Pro X Superlight 2",
+    "Logitech (g) Gpw4 Generation Wireless Gaming Mouse for Small Hands, Dual-Mode Mechanical": "Logitech G Pro X Superlight 2",
+    "Suitable for Logitech Gpw4 Puppy Wireless Mouse Gaming E-Sports Peripherals Gpw4 Mouse Pink": "Logitech G Pro X Superlight 2",
+    "Suitable for Logitech Gpw4 Puppy Wireless Mouse Gaming E-Sports Peripherals Gpw4 Mouse Black": "Logitech G Pro X Superlight 2",
+    
+    # 4. Logitech MX Master 4
     "Logitech Mx Master4 High-Performance Business Ergonomic Mouse Wireless Bluetooth Dual": "Logitech MX Master 4",
-    "罗技 GPW4 鹰眼GPROX SUPERLIGHT2 DEX 无线游戏鼠标网吧网咖": "Logitech G Pro X Superlight 2",
-    "Logitech (g) Gpw4 Generation Wireless Gaming Mouse for Small Hands, Dual-Mode Mechanical": "Logitech G Pro Wireless",
-    "Suitable for Logitech Gpw4 Puppy Wireless Mouse Gaming E-Sports Peripherals Gpw4 Mouse Pink": "Logitech G Pro Wireless",
-    "Suitable for Logitech Gpw2 King Kong Wireless Mouse, the Second Generation Gaming E-Sports Gpw 2 King Kong Edition - Red": "Logitech G Pro Wireless",
-    "Logitech Gpw5 Snow Leopard Wireless Mouse Electromagnetic Micro-Motion Gaming Mouse Gpw5": "Logitech G Pro X Superlight 2",
-    "适用罗技无线鼠标gpw5狗屁王五代雪豹": "Logitech G Pro X Superlight 2",
-    "适用罗技GPW5雪豹无线鼠标 狗屁王五代8K电磁微动电竞游戏双模": "Logitech G Pro X Superlight 2",
-    "Logitech Gpro X Superstrike 5Th Generation Snow Leopard Wireless Gaming Mouse Is Suitable for Use": "Logitech G Pro X Superlight 2",
-    "罗技GPW5雪豹无线鼠标 狗屁王五代8K电磁微动电竞游戏双模轻量化": "Logitech G Pro X Superlight 2",
     "Logitech Master Series Mx Master 4 High Performance Wireless Bluetooth Mouse": "Logitech MX Master 4",
-    "Suitable for Logitech Gpw4 Puppy Wireless Mouse Gaming E-Sports Peripherals Gpw4 Mouse Black": "Logitech G Pro Wireless"
+    
+    # 5. Logitech G Pro Wireless (GPW2 / GPW)
+    "Suitable for Logitech Gpw2 King Kong Wireless Mouse, the Second Generation Gaming E-Sports Gpw 2 King Kong Edition - Red": "Logitech G Pro Wireless"
 }
 
 def extract_sku_core_gemini(raw_name: str) -> str:
